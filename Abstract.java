@@ -1,0 +1,35 @@
+package abstractdemo;
+
+abstract class Super
+{
+	public Super()
+	{
+		System.out.println("Super Constructor");
+	}
+	
+	public void math1()
+	{
+		System.out.println("Math1 of Super");
+	}
+	
+	abstract public void math2();
+}
+
+class Sub extends Super
+{
+	@Override
+	public void math2()
+	{
+		System.out.println("sub math2");
+	}
+}
+
+public class Abstract {
+	public static void main(String args[])
+	{
+		Super s=new Sub();
+		s.math1();
+		s.math2();k
+	}
+
+}
