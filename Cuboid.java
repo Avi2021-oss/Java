@@ -1,5 +1,3 @@
-package arithmetic;
-
 import java.lang.*;
 import java.util.Scanner;
 
